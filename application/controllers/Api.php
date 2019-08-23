@@ -183,7 +183,7 @@ class Api extends CI_Controller {
 			
 			$id = $this->api_model->insert_contact($contactData);
 
-			$this->sendemail($contactData);
+			//$this->sendemail($contactData);
 			
 			$response = array('id' => $id);
 		}
